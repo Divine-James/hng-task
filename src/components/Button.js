@@ -15,18 +15,3 @@ const ProfileLink = ({ children, link, ...otherProps }) => {
   );
 };
 export default ProfileLink;
-
-/*
-import "./ProfileLink.css";
-
-function ProfileLink(props) {
-  return (
-    <div>
-      <a className="link" href="www.google.com" id="zuri_btn">
-        {props.title}
-      </a>
-    </div>
-  );
-}
-export default ProfileLink;
-*/

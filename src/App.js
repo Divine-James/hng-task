@@ -21,7 +21,7 @@ function App() {
 
         <Button
           id="book__python"
-          link="https://books.zuri.team/python-for-beginers?ref_id=dprincecoder"
+          link="https://books.zuri.team/python-for-beginers?ref_id=Truevine"
         >
           Python Books
         </Button>
@@ -37,30 +37,5 @@ function App() {
     </div>
   );
 }
-
-/*
-function App() {
-  const links = [
-    "Twitter Link",
-    "Zuri Team",
-    "Zuri Books",
-    "Python Books",
-    "Background Check For Coders",
-    "Design Books",
-  ];
-  return (
-    <div>
-      <Profile></Profile>
-      <ProfileLink title={links[0]}></ProfileLink>
-      <ProfileLink title={links[1]}></ProfileLink>
-      <ProfileLink title={links[2]}></ProfileLink>
-      <ProfileLink title={links[3]}></ProfileLink>
-      <ProfileLink title={links[4]}></ProfileLink>
-      <ProfileLink title={links[5]}></ProfileLink>
-      <Footer></Footer>
-    </div>
-  );
-}
-*/
 
 export default App;

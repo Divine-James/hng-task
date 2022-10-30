@@ -15,7 +15,12 @@ function Profile() {
         <img src="img/dotted-hamburger.svg" alt="menu icon" className="menu" />
       </div>
       <div className="user-profile">
-        <img src="img/picture.jpg" alt="user" className="picture"></img>
+        <img
+          src="img/picture.jpg"
+          alt="user"
+          className="picture"
+          id="profile__img"
+        ></img>
       </div>
       <div className="username">
         <h1 className="myname" id="twitter">
