@@ -15,15 +15,7 @@
   cursor: pointer;
   text-decoration: none;
   color: #000;
-  /*background-color: #eaecf0;
-  color: #101828;
-  padding: 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: flex;
-  margin: 20px 100px;
-  text-align: center;
-  justify-content: center;
-  font-family: "Inter";
-  cursor: pointer;*/
+}
+.link:hover {
+  background: #dfe1e6;
 }

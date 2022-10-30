@@ -10,6 +10,9 @@ header {
   align-items: center;
   flex-direction: column;
 }
+.share {
+  cursor: pointer;
+}
 .share-icon {
   position: absolute;
   top: -10px;

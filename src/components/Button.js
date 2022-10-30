@@ -3,7 +3,13 @@ import "./Button.css";
 
 const ProfileLink = ({ children, link, ...otherProps }) => {
   return (
-    <a href={link} target="_blank" className="link" {...otherProps}>
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="link"
+      {...otherProps}
+    >
       {children}
     </a>
   );
